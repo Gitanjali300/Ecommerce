@@ -25,3 +25,9 @@ spring:
     logging:
       enabled: true
 
+logging:
+  level:
+    org:
+      flywaydb: TRACE
+
+
